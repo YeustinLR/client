@@ -1,0 +1,107 @@
+/* AdminUsersPage.css */
+
+.admin-users-page {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .edit-modal, .create-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 9999;
+  }
+   /* ... otros estilos ... */
+/* ... otros estilos ... */
+
+/* Estilos para el modal */
+.create-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    width: 400px; /* Ancho del modal */
+    z-index: 100;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  /* Establecer el ancho fijo para todos los inputs del modal */
+  .create-modal input[type='text'],
+  .create-modal input[type='email'],
+  .create-modal input[type='password'],
+  .create-modal input[type='checkbox'] {
+    display: flex;
+    width: 100%;
+    max-width: 100%; /* Asegurar que no se desborde del contenedor */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .modal-buttons button {
+    margin-left: 10px;
+  }
+  
+  

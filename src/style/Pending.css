@@ -1,0 +1,67 @@
+/* style/Pending.css */
+body {
+  background-color: #961818;
+}
+/* Estilos generales de la página de usuarios pendientes */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.pending-users-wrapper {
+  max-width: 500px;
+  width: 100%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pending-users-header {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pending-user-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pending-user-info {
+  flex: 1;
+}
+
+.pending-user-info p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.pending-user-actions {
+  display: flex;
+}
+
+.pending-user-actions button {
+  padding: 8px 16px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos específicos para la página de usuarios pendientes cuando es el objetivo de la URL */
+/* Utilizamos la pseudoclase :target para aplicar los estilos cuando la página es el destino de un enlace */
+#pending-users-page:target {
+  box-shadow: 0 0 10px #007bff;
+}

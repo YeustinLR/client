@@ -1,0 +1,71 @@
+/* style/Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.login-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Color azul para el título */
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container form div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.login-container form label {
+  flex: 1;
+  font-weight: bold;
+  color: #444;
+}
+
+.login-container form input {
+  flex: 2;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-container form button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Agrega una transición al cambio de color de fondo */
+}
+
+.login-container form button:hover {
+  background-color: #0056b3; /* Cambia el color de fondo al azul oscuro cuando el cursor pase por encima */
+}
+
+.register-link {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px; /* Tamaño de fuente más pequeño para el enlace de registro */
+}
+
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Agrega aquí estilos adicionales si es necesario */

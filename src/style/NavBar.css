@@ -1,0 +1,77 @@
+/* NavBar.css */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para el primer h1 */
+.navbar-brand-1{
+  text-decoration: none;
+  color: #5e89ac;
+  font-size: 18px;
+  margin-right: 25px; /* Agrega un pequeño espacio a la derecha */
+  margin-left: 20px;
+
+}
+
+/* Estilos para el segundo h1 */
+.navbar-brand-2 {
+  text-decoration: none;
+  color: #ffcc00; /* Cambia el color a amarillo (#ffcc00) o el color deseado */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el tercer h1 */
+.navbar-brand-3 {
+  text-decoration: none;
+  color: #ffcc00; /* Cambia el color a amarillo (#ffcc00) o el color deseado */
+  font-size: 12px;
+  margin-bottom: -30px;
+}
+
+/* Resto de estilos... */
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+/* Resto de estilos... */
+.navbar-item {
+  margin-right: 20px;
+}
+
+/* Resto de estilos... */
+.navbar-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Resto de estilos... */
+.logout-button {
+  background-color: #8b0000;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #600000;
+}
+/* Estilo para el enlace activo en el navbar */
+.active-link {
+  background-color: #e71616;
+  border-radius: 5px;
+}
